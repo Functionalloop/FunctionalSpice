@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Functional "F" mark.
+    TEMPORARY: built from the traced backup (assets/functional-logo-traced.svg in the update pack).
+    Replace with the ORIGINAL logo: in Android Studio, File > New > Vector Asset > Local file,
+    pick functional-logo.svg, name it "functional_logo", and keep the fill black.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50.5dp"
+    android:height="56dp"
+    android:viewportWidth="505"
+    android:viewportHeight="560">
+    <!-- The traced SVG viewBox starts at (405, 335); shift it to the origin. -->
+    <group
+        android:translateX="-405"
+        android:translateY="-335">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M903,343 L598,455 Q548,475 548,525 L545,600 Q542,622 522,632 L458,658 Q416,676 416,718 L416,887 L510,848 Q543,832 543,797 L544,650 Q546,612 580,602 L818,510 Q850,497 860,478 L885,438 Q900,413 900,385 Z" />
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M563,787 L563,690 Q565,655 595,642 L730,588 L726,690 Q720,728 686,741 Z" />
+    </group>
+</vector>

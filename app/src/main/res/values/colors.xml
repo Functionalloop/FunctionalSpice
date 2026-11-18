@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background (WarmAlabaster token, cool grey). Compose colors live in core/theme/Color.kt -->
+    <color name="bg_alabaster">#F2F2F5</color>
+    <!-- Launcher icon background: white, as in the Deu's logo -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

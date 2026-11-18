@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Chai cup printed at the top of every customer bill (see CupLogoRenderer).
+    Black only: the thermal printer has no greys. To use your own art, replace this file
+    with a black vector of the same name (File > New > Vector Asset > Local file).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="56dp"
+    android:viewportWidth="60"
+    android:viewportHeight="56">
+    <!-- Steam -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:pathData="M19,15 C15,11 23,8 19,3" />
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:pathData="M28,15 C24,11 32,8 28,3" />
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:pathData="M37,15 C33,11 41,8 37,3" />
+    <!-- Cup -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M8,20 L48,20 L44,43 Q43,48 38,48 L18,48 Q13,48 12,43 Z" />
+    <!-- Handle -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M46,25 Q57,24 55,32 Q53,39 43,38" />
+    <!-- Saucer -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M2,50 L58,50 Q56,55 51,55 L9,55 Q4,55 2,50 Z" />
+</vector>
